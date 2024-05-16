@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    background-image: url("imagenes/fondo.jpg");
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#titulo{
+    background-color: black;
+    background-color: ;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1{
+    margin: 0;
+    color: lightyellow;
+}
+
+#contenedor{
+    width: 40%;
+    height: 580px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: rgba(227, 230, 223, .5);
+    gap: 20px;
+}
+
+.contPuntuacion{
+    display:flex;
+ }
+ 
+
+#ganadas{
+    position: relative;
+    top: -20px;
+    left: -200px;
+}
+
+#marcadorG{
+    position: relative;
+    text-align: center;
+    left: -195px;
+    top: -25px;
+    width: 20px;
+    height: 20px;
+    border-bottom: 2px solid black;
+}
+
+#perdidas{
+    position: relative;
+    top:10px;
+    left: -280px;
+}
+
+#marcadorP{
+    position: relative;
+    text-align: center;
+    top: 5px;
+    left:-275px ;
+    width: 20px;
+    height: 20px;
+    border-bottom: 2px solid black;
+}
+
+#muñeco{
+    width:200px;
+    position: relative;
+    top: -40px;
+}
+
+#palabra{
+    height: 3em;
+    position: relative;
+    top: -30px;
+}
+
+span{
+    vertical-align: bottom;
+    font-size: 2em;
+    border-bottom: 2px solid black;
+    width: 30px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block;
+    position: relative;
+    top: -30px;
+}
+
+#botones{
+    display: flex;
+    gap: 7px;
+    flex-wrap: wrap;
+    position: relative;
+    top: -85px;
+}
+
+button{
+    padding: 6px 0;
+    width: 50px;
+    height: 28px;
+}
+
+#limpiar{
+    position: relative;
+    width: 100px;
+    left: 190px;
+    top: -132px;
+}
+
+#jugar{
+    position: relative;
+    width: 110px;
+    top: -80px;
+}
+
+#texto{
+   position: relative;
+   top: -155px;
+   text-align: center;
+}
+
+#desc{
+    position: relative;
+    top: -15px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Ahorcado</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div id="titulo"><h1>Juego del Ahorcado</h1></div>
+    <div id="contenedor">   
+        <!-- Marcador del juego -->
+        <div class="contPuntuacion">
+            <p id="ganadas">Ganadas: </p> 
+            <p id="marcadorG">0</p> 
+            <p id="perdidas">Perdidas: </p> 
+            <p id="marcadorP">0</p> 
+        </div>
+        <!--Imagenes que componen al muñeco-->
+        <div id="muñeco">
+            <img src="imagenes/img1.png" alt="Imagen 1" style="display: block;">
+            <img src="imagenes/img2.png" alt="Imagen 2" style="display: none;">
+            <img src="imagenes/img3.png" alt="Imagen 3" style="display: none;">
+            <img src="imagenes/img4.png" alt="Imagen 4" style="display: none;">
+            <img src="imagenes/img5.png" alt="Imagen 5" style="display: none;">
+            <img src="imagenes/img6.png" alt="Imagen 6" style="display: none;">
+            <img src="imagenes/img7.png" alt="Imagen 7" style="display: none;">
+            <img src="imagenes/img8.png" alt="Imagen 8" style="display: none;">               
+        </div>
+        <p id="palabra"></p>
+        <!-- Boton iniciar juego -->
+        <button id="jugar">Obtener palabra</button>
+        <!-- Botones de las letras del abecedario -->
+        <div id="botones">
+            <button>A</button>
+            <button>B</button>
+            <button>C</button>
+            <button>D</button>
+            <button>E</button>
+            <button>F</button>           
+            <button>G</button>
+            <button>H</button>
+            <button>I</button>
+            <button>J</button>
+            <button>K</button>
+            <button>L</button>
+            <button>M</button>
+            <button>N</button>
+            <button>Ñ</button>
+            <button>O</button>
+            <button>P</button>
+            <button>Q</button>
+            <button>R</button>
+            <button>S</button>
+            <button>T</button>
+            <button>U</button>
+            <button>V</button>                    
+            <button>W</button>
+            <button>X</button>
+            <button>Y</button>
+            <button>Z</button>    
+        </div>
+        <!-- Boton para limpiar marcador e iniciar nuevo -->
+        <button id="limpiar">Limpiar</button>  
+        <!-- Contenedor de descripciones de las palabras -->
+        <div id="texto">
+            <h4>Descripción:</h4>
+            <div id="desc">
+                <p style="display: none;">Mouse: dispositivo apuntador utilizado para facilitar el manejo de un entorno gráfico en una computadora.</p>
+                <p style="display: none;">Teclado: dispositivo de entrada que utiliza una disposición de teclas, para que actúen como interruptores electrónicos que envían información a la computadora.</p>
+                <p style="display: none;">Computadora: máquina electrónica capaz de realizar un tratamiento automático de la información y de resolver con gran rapidez problemas matemáticos y lógicos mediante programas informáticos</p>
+                <p style="display: none;">Compilador: programa informático que traduce todo el código fuente de un proyecto de software a código máquina antes de ejecutarlo.</p>
+                <p style="display: none;">Minecraft: videojuego de construcción de tipo "mundo abierto"</p>
+                <p style="display: none;">Software: conjunto de los programas de cómputo, procedimientos, reglas, documentación y datos asociados, que forman parte de las operaciones de un sistema de computación.</p>
+                <p style="display: none;">Sistemas: conjunto de elementos físicos y lógicos que se encargan de recibir, guardar y procesar datos para luego entregarlos en forma de resultados. </p>
+                <p style="display: none;">Servidores: sistema que proporciona recursos, datos, servicios o programas a otros ordenadores, conocidos como clientes, a través de una red. </p>
+                <p style="display: none;">Protocolos: conjunto de reglas para formatear y procesar datos.</p>
+                <p style="display: none;">Redes: sistemas informáticos conectados entre sí mediante una serie de dispositivos alámbricos o inalámbricos, gracias a los cuales pueden compartir información en paquetes de datos.</p>
+                <p style="display: none;">Datos: información procesable que se almacena y manipula en un sistema informático, que puede ser en forma de texto, números, imágenes, etc</p>
+                <p style="display: none;">Código: texto desarrollado en un lenguaje de programación y que debe ser compilado o interpretado para poder ejecutarse en un ordenador</p>
+                <p style="display: none;">Programación: es el proceso de crear un conjunto de instrucciones para decirle a una computadora cómo realizar una tarea.</p>
+                <p style="display: none;">Yorch: jefe de la carrera de ICO en la FES Aragón.</p>
+                <p style="display: none;">Algoritmo:  conjunto de instrucciones sistemáticas y previamente definidas que se utilizan para realizar una determinada tarea.</p>
+            </div>
+    </div> 
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
